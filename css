@@ -1,1 +1,4 @@
 h1 {color: Red; text-align: center; font-size: 128px;}
+#box {background-color: blue;}
+#content {background-color: green;}
+div {margin-bottom: 30px;}
