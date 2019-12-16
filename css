@@ -1,11 +1,26 @@
-h1 {color: Red; text-align: center; font-size: 128px; margin-bottom: 30px;}
-#box {background-color: blue;
-padding: 10px; border: 1px solid black; box-size: border-box; margin-left: 10px}
-#content {background-color: green;}
+h1 {color: Red; text-align: center; font-size: 128px; margin-bottom: 50px;}
+div#container {background-color: blue;
+padding: 10px; border: 2px solid black;box-size: borderbox; margin-bottom: 10px;}
+div.row {width: 100%;}
+h2#box {position: relative;
+top: -33.5px;
+right: -830px;
+color: red;
+background-color: yellow;}
+h3#box {position: relative;
+top: -33.5px;
+right: -830px;
+color: red;
+background-color: brown;}
+h4#box {size: 30px; position: relative;
+top: -33.5px;
+right: -830px;
+color: red;
+background-color: pink;}
 
-.row {width: 100%;}
-
-div {float: left; margin-top:20px; box-size: border-box;}
+h2 p {color: black;}
+h3 p {color: white;}
+h4 p {color: black;}
 
 @media (min-width: 992px) {.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12}
 .col-lg-1 {width: 8.33%}
