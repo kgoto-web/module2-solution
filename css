@@ -1,9 +1,9 @@
 h1 {color: Red; text-align: center; font-size: 128px; margin-bottom: 50px;}
-#column-left {position: relative; background-color: blue;
+#column-left {position: relative; background-color: lightblue;
 padding: 10px; border: 2px solid black; box-size: borderbox; margin-bottom: 10px; margin-right: 10px; margin-left: 10px;float: left; width: 30%;}
-#column-center {position: relative; background-color: blue;
+#column-center {position: relative; background-color: lightblue;
 padding: 10px; border: 2px solid black;box-size: borderbox; margin-bottom: 10px; margin-right: 10px; float: left; width: 30%}
-#column-right {position: relative; background-color: blue;
+#column-right {position: relative; background-color: lightblue;
 padding: 10px; border: 2px solid black; box-size: borderbox; margin-bottom: 10px; margin-right:10px; float: left; width: 30%}
 
 #box-1 {border: 2px solid black; box-size: 2px; position: absolute;
@@ -23,8 +23,14 @@ right: 0px;
 float: left;
 background-color: pink;}
 
-@media (min-width: 992px) 
+@media (min-width: 992px)
 
-@media (min-width: 768px) and (max-width: 991px)
+@media (min-width: 768px) and (max-width: 991px) {
+  #column-left {width: 45%;}
+  #column-center {width: 45%;}
+  #column-right {width: 90%;}
 
-@media (max-width: 767pm) 
+  @media (max-width: 767pm) {
+    #column-left {width: 90%;}
+    #column-center {width: 90%;}
+    #column-right {width: 90%;}
