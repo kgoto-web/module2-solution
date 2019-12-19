@@ -1,10 +1,11 @@
-h1 {color: Red; text-align: center; font-size: 128px; margin-bottom: 50px;}
+body {font-family: Helvetica;}
+h1 {color: Red; text-align: center; font-size: 108px; margin-bottom: 50px;}
 #column-left {position: relative; background-color: lightblue;
-padding: 10px; border: 2px solid black; box-size: borderbox; margin-bottom: 10px; margin-right: 10px; margin-left: 10px;float: left; width: 30%;}
+padding: 20px; border: 2px solid black; box-size: borderbox; margin-bottom: 10px; margin-right: 3.5%; margin-left: 3.5%; float: left; width: 25%;}
 #column-center {position: relative; background-color: lightblue;
-padding: 10px; border: 2px solid black;box-size: borderbox; margin-bottom: 10px; margin-right: 10px; float: left; width: 30%}
+padding: 20px; border: 2px solid black;box-size: borderbox; margin-bottom: 10px; margin-right: 3.5%; float: left; width: 25%}
 #column-right {position: relative; background-color: lightblue;
-padding: 10px; border: 2px solid black; box-size: borderbox; margin-bottom: 10px; margin-right:10px; float: left; width: 30%}
+padding: 20px; border: 2px solid black; box-size: borderbox; margin-bottom: 10px; margin-right: 3.5%; float: left; width: 25%}
 
 #box-1 {border: 2px solid black; box-size: 2px; position: absolute;
 top: 0px;
